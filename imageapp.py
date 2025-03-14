@@ -223,7 +223,7 @@ def main():
             st.text(f"Dimensions: {img1_array.shape[1]} x {img1_array.shape[0]}")
         
         with col2:
-            st.image(image2, caption="Image 2", use_column_width=True)
+            st.image(image2, caption="Image 2", use_container_width=True)
             st.text(f"Dimensions: {img2_array.shape[1]} x {img2_array.shape[0]}")
         
         # Add a compare button
