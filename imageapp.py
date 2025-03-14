@@ -219,7 +219,7 @@ def main():
         # Display images
         col1, col2 = st.columns(2)
         with col1:
-            st.image(image1, caption="Image 1", use_column_width=True)
+            st.image(image1, caption="Image 1", use_container_width=True)
             st.text(f"Dimensions: {img1_array.shape[1]} x {img1_array.shape[0]}")
         
         with col2:
